@@ -83,3 +83,22 @@ nav a.selected {
   background-color: #afe8ef;
   color: #004499;
 }
+
+
+
+/********************************************************
+FOOTER
+*********************************************************/
+
+footer {
+  text-align: center;
+  color: #ddd;
+  font-size: 0.75em;
+  padding-top: 50px;
+}
+
+.social-icon {
+  width: 20px;
+  height: 20px;
+  margin: 0 3px;
+}
