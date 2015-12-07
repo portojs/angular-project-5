@@ -44,10 +44,32 @@ header h2 {
   margin-top: 0;
 }
 
-header ul {
+
+
+/********************************************************
+NAViGATION
+*********************************************************/
+
+nav ul {
   padding: 0;
+  background-color: #004499;
 }
 
-header ul li {
+nav ul li {
   display: inline-block;
+  padding: 0 0 5px;
+  margin: 0 0 0 -4px;
+  /*padding: 0.5em 0.2em 0.5em;*/
+  /*width: 100px;*/
+}
+
+nav a {
+  /*padding: 0.5em 0.2em 0.5em;*/
+  /*width: 100%;*/
+  padding: 0 10px 5px;
+  color: white;
+}
+
+nav a:hover {
+  background-color: #add8e6;
 }
