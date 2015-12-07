@@ -7,6 +7,7 @@ angular.module('bobbleApp')
   .directive('mainHeader', function() {
     return {
       restrict: 'E',
-      templateUrl: 'templates/directives/main-header.html'
+      templateUrl: 'templates/directives/main-header.html',
+      controller: 'MainHeaderController'
     };
   });
