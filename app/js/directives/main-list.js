@@ -7,7 +7,8 @@ angular.module('bobbleApp')
       restrict: 'E',
       templateUrl: 'templates/directives/main-list.html',
       scope: {
-        list: '='
+        list: '=',
+        gravatarUrl: '='
       }
     }
   });
