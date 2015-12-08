@@ -7,7 +7,8 @@ angular.module('bobbleApp')
   .config(['$routeProvider', function($routeProvider) {
     $routeProvider
       .when('/sale', {
-        templateUrl: 'templates/pages/sale/index.html'
+        templateUrl: 'templates/pages/sale/index.html',
+        controller: 'js/controllers/sale-index-controller.js'
       })
       .when('/contact', {
         templateUrl: 'templates/pages/contact/index.html'

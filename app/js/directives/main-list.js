@@ -5,6 +5,9 @@ angular.module('bobbleApp')
   .directive('mainList', function() {
     return {
       restrict: 'E',
-      templateUrl: 'templates/directives/main-list.html'
+      templateUrl: 'templates/directives/main-list.html',
+      scope: {
+        list: '='
+      }
     }
   });
