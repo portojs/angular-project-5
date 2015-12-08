@@ -4,7 +4,7 @@
 
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>My AngularJS App</title>
+  <title>Blade Motors Inc</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- css files -->
@@ -18,7 +18,7 @@
 
   <main-header></main-header>
 
-  <ng-view></ng-view>
+  <div ng-view id="main-wrapper"></div>
 
   <main-footer></main-footer>
 
@@ -35,6 +35,8 @@
   <script src="js/directives/main-header.js"></script>
   <!-- my libraries - controllers -->
   <script src="js/controllers/main-header-controller.js"></script>
+  <!-- my libraries - services -->
+  <script src="js/services/shopping.js"></script>
 
 </body>
 </html>

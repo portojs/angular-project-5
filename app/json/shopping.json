@@ -1,0 +1,32 @@
+[
+  {
+    "id" : 1,
+    "title" : "Doll House",
+    "price": 5.99,
+    "seller" : "john.doe@gmail.com"
+  },
+  {
+    "id" : 2,
+    "title" : "Plasma TV",
+    "price": 125.99,
+    "seller" : "dick_buick@gmail.com"
+  },
+  {
+    "id" : 3,
+    "title" : "AK-47 automatic rifle",
+    "price": 50.00,
+    "seller" : "jimgordon@gmail.com"
+  },
+  {
+    "id" : 4,
+    "title" : "Tomahawk missile",
+    "price": 5580.99,
+    "seller" : "mcmilligan@gmail.com"
+  },
+  {
+    "id" : 5,
+    "title" : "Villa in Italy, Sicily",
+    "price": 5499000.99,
+    "seller" : "jordano-bruno@gmail.com"
+  }
+]

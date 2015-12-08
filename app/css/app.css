@@ -18,8 +18,14 @@ ul {
 }
 
 a {
-  text-decoration: none;
   color: #004499;
+  text-decoration: none;
+}
+
+#main-wrapper {
+  max-width: 1024px;
+  margin: 2em auto 0;
+  padding: 0 5%;
 }
 
 /********************************************************
@@ -51,8 +57,8 @@ NAVIGATION
 *********************************************************/
 
 nav ul {
-  padding: 0;
   background-color: #004499;
+  padding: 0;
 }
 
 nav ul li {
@@ -62,10 +68,10 @@ nav ul li {
 }
 
 nav a {
+  color: #fff;
   display: inline-block;
   padding: 5px 5px 5px;
   margin: 0 -3px;
-  color: white;
   width: 80px;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
@@ -75,13 +81,13 @@ nav a {
 }
 
 nav a:hover {
-  background-color: #afe8ef;
   color: #004499;
+  background-color: #afe8ef;
 }
 
 nav a.selected {
-  background-color: #afe8ef;
   color: #004499;
+  background-color: #afe8ef;
 }
 
 
@@ -101,4 +107,29 @@ footer {
   width: 20px;
   height: 20px;
   margin: 0 3px;
+}
+
+
+
+/********************************************************
+PAGE: SALE
+*********************************************************/
+
+#page-sale button {
+  width: 100%;
+  color: #fff;
+  background-color: #004092;
+  border: none;
+  padding: 10px 0;
+  margin: 2px 0;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+#page-sale button:hover {
+  color: #004499;
+  background-color: #afe8ef;
 }
