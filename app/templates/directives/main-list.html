@@ -1,9 +1,12 @@
 <div>
   <ul>
     <li ng-repeat="item in list">
-      <p>Item: {{item.title}}</p>
-      <p>Price: {{item.price}}</p>
-      <p>Seller: {{item.seller}}</p>
+      <p>
+        Lot ID: {{item.id}}<br/>
+        Item: {{item.title}}<br/>
+        Price: {{item.price}}<br/>
+        Seller: {{item.seller}}<br/>
+      </p>
       <img ng-src="{{gravatarUrl(item.seller)}}">
     </li>
   </ul>

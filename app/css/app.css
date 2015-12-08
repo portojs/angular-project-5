@@ -133,3 +133,24 @@ PAGE: SALE
   color: #004499;
   background-color: #afe8ef;
 }
+
+#page-sale ul {
+  padding: 0;
+}
+
+#page-sale li {
+  background-color: #eee;
+  padding: 5px;
+  margin: 10px 0;
+}
+
+#page-sale main-list p,
+#page-sale main-list img {
+  display: inline-block;
+}
+
+#page-sale main-list p {
+  float: left;
+  margin: 0;
+  width: 290px;
+}

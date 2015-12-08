@@ -3,7 +3,7 @@
  */
 angular.module('bobbleApp')
   .provider('GravatarProvider', function() {
-    var avatarSize = 60;
+    var avatarSize = 80;
     var avatarUrl = 'http://www.gravatar.com/avatar/';
     this.$get = function() {
       return function(email) {
