@@ -1,19 +1,38 @@
-<form novalidate="novalidate">
+<form name="shoppingForm" novalidate="novalidate">
   <div>
     <label for="form-title">Item:</label>
-    <input id="form-title" type="text" />
+    <input ng-model="item.title" id="form-title" type="text" placeholder="Enter the item name" />
   </div>
   <div>
-    <label for="form-type">Type:</label>
-    <input id="form-type" type="text" />
+    <!--<label for="form-type">Type:</label>-->
+    <!--<input ng-model="item.type" id="form-type" type="text" />-->
+    <fieldset>
+      <legend>Item type</legend>
+      <p>
+        <input ng-model="item.type" type="radio" name="type" id="type-1" value="general" />
+        <label for="type-1">General</label>
+      </p>
+      <p>
+        <input ng-model="item.type" type="radio" name="type" id="type-2" value="real property" />
+        <label for="type-2">Real Property</label>
+      </p>
+      <p>
+        <input ng-model="item.type" type="radio" name="type" id="type-3" value="military" />
+        <label for="type-3">Military</label>
+      </p>
+      <p>
+        <input ng-model="item.type" type="radio" name="type" id="type-4" value="electronics" />
+        <label for="type-4">Electronics</label>
+      </p>
+    </fieldset>
   </div>
   <div>
     <label for="form-price">Price:</label>
-    <input id="form-price" type="number" />
+    <input ng-model="item.price" id="form-price" type="number" placeholder="Enter the item price" />
   </div>
   <div>
     <label for="form-email">Email:</label>
-    <input id="form-email" type="email" />
+    <input ng-model="item.seller" id="form-email" type="email" placeholder="Enter your email" />
   </div>
   <button type="submit">Submit</button>
 </form>

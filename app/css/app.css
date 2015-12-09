@@ -23,6 +23,10 @@ a {
   text-decoration: none;
 }
 
+label {
+  cursor: pointer;
+}
+
 #main-wrapper {
   max-width: 1024px;
   margin: 2em auto 0;
@@ -160,18 +164,38 @@ main-form form {
   margin: 20px 0 0;
 }
 
-#page-sale-form div {
+main-form div {
   width: 100%;
   margin: 20px 0;
 }
 
-#page-sale-form label {
+main-form label {
   display: inline-block;
   width: 10%;
   margin-right: 1em;
 }
 
-#page-sale-form input {
+main-form input {
   width: 80%;
   float: right;
+}
+
+#page-sale main-form button[type="submit"] {
+  background-color: #255470;
+}
+
+#page-sale main-form button[type="submit"]:hover {
+  color: #255470;
+  background-color: lightcyan;
+}
+
+#page-sale main-form fieldset label {
+  width: 60%;
+}
+
+#page-sale main-form fieldset input {
+  display: inline-block;
+  width: 5%;
+  float: left;
+  margin: 3px 10px 0 0;
 }
