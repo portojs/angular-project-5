@@ -8,6 +8,6 @@ angular.module('bobbleApp')
     return {
       restrict: 'E',
       templateUrl: 'templates/directives/main-header.html',
-      controller: 'MainHeaderController'
+      controller: 'mainHeaderController'
     };
   });

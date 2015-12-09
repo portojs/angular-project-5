@@ -4,7 +4,7 @@
 'use strict';
 
 angular.module('bobbleApp')
-  .controller('MainHeaderController', function($scope, $location) {
+  .controller('mainHeaderController', function($scope, $location) {
     $scope.selected = $location.path() === '/sale' ?  1 : 2;
     $scope.checkSelected = function(selected) {
       return $scope.selected === selected;
