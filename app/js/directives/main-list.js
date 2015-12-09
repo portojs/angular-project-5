@@ -1,6 +1,8 @@
 /**
  * Created by Peter on 08.12.2015.
  */
+'use strict';
+
 angular.module('bobbleApp')
   .directive('mainList', function() {
     return {
