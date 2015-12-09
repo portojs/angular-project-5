@@ -33,6 +33,8 @@ label {
   padding: 0 5%;
 }
 
+
+
 /********************************************************
 HEADER
 *********************************************************/
@@ -178,6 +180,11 @@ main-form label {
 main-form input {
   width: 80%;
   float: right;
+  border: 1px solid black;
+}
+
+main-form fieldset {
+  margin: 0;
 }
 
 #page-sale main-form button[type="submit"] {
@@ -198,4 +205,12 @@ main-form input {
   width: 5%;
   float: left;
   margin: 3px 10px 0 0;
+}
+
+.ng-invalid.ng-dirty {
+  border-color: red;
+}
+
+.ng-valid.ng-dirty {
+  border-color: green;
 }
