@@ -4,6 +4,7 @@ GLOBAL
 *********************************************************/
 
 body {
+  color: #8e8e8e;
   font-family: 'Libre Baskerville', serif;
 }
 
@@ -152,5 +153,5 @@ PAGE: SALE
 #page-sale main-list p {
   float: left;
   margin: 0;
-  width: 290px;
+  width: 285px;
 }
