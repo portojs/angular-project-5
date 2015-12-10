@@ -1,7 +1,7 @@
 <form ng-submit="shoppingForm.$valid && submitForm()" name="shoppingForm" novalidate="novalidate">
   <div>
     <label for="form-title">Item:</label>
-    <input ng-model="item.title" id="form-title" type="text" placeholder="Enter the item name" />
+    <input ng-model="item.title" ng-blur="blurFunction()" id="form-title" type="text" placeholder="Enter the item name" />
   </div>
   <div>
     <!--<label for="form-type">Type:</label>-->
