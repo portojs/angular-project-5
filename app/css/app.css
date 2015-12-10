@@ -215,3 +215,44 @@ main-form fieldset {
 .ng-valid.ng-dirty {
   border-color: green;
 }
+
+
+
+/********************************************************
+PAGE: CONTACT
+*********************************************************/
+
+#primary {
+  text-align: center;
+  margin: 50px 0;
+}
+
+#primary img {
+  border-radius: 100%;
+}
+
+.contact-info {
+  font-size: 0.9em;
+  padding: 0;
+}
+
+.contact-info a {
+  display: block;
+  min-height: 20px;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  padding: 0 0 0 30px;
+  margin: 0 0 10px;
+}
+
+.contact-info li.phone a {
+  background-image: url("../img/phone.png");
+}
+
+.contact-info li.mail a {
+  background-image: url("../img/mail.png");
+}
+
+.contact-info li.twitter a {
+  background-image: url("../img/twitter.png");
+}

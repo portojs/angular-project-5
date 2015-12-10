@@ -1,11 +1,11 @@
 <form ng-submit="shoppingForm.$valid && submitForm()" name="shoppingForm" novalidate="novalidate">
+
   <div>
     <label for="form-title">Item:</label>
     <input ng-model="item.title" ng-blur="blurFunction()" ng-change="changeFunction()" id="form-title" type="text" placeholder="Enter the item name" />
   </div>
+
   <div>
-    <!--<label for="form-type">Type:</label>-->
-    <!--<input ng-model="item.type" id="form-type" type="text" />-->
     <fieldset>
       <legend>Item type</legend>
       <p>
@@ -26,13 +26,17 @@
       </p>
     </fieldset>
   </div>
+
   <div>
     <label for="form-price">Price:</label>
     <input ng-model="item.price" id="form-price" type="number" placeholder="Enter the item price" />
   </div>
+
   <div>
     <label for="form-email">Email:</label>
     <input ng-model="item.seller" id="form-email" type="email" placeholder="Enter your email" />
   </div>
+
   <button type="submit">Submit</button>
+
 </form>
