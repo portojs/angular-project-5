@@ -12,10 +12,11 @@ angular.module('bobbleApp')
         list: '='
       },
       controller: 'mainFormController',
-      require: '^saleIndexController',
-      link: function(scope, element, attrs, saleIndexController){
-        scope.submitForm = function(item) {
-          saleIndexController.shoppingListLocal.append(item);
+      link: function(scope, element, attrs) {
+        scope.item = {};
+        scope.submitForm = function() {
+          scope.list.push(scope.item);
+          scope.item = {};
         };
       }
     }
