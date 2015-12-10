@@ -5,4 +5,5 @@
 
 angular.module('bobbleApp')
   .controller('mainFormController', function($scope) {
+    $scope.showForm = false;
   });

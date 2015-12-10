@@ -3,6 +3,8 @@
  */
 angular.module('bobbleApp')
   .controller('saleIndexController', function($scope, ShoppingService, GravatarProvider) {
+    $scope.showForm = false;
+    $scope.showList = false;
     $scope.shoppingList = ShoppingService.query();
     $scope.shoppingListLocal = [
       {

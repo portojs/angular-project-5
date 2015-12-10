@@ -136,7 +136,8 @@ PAGE: SALE
   transition: all 0.3s;
 }
 
-#page-sale button:hover {
+#page-sale button:hover,
+#page-sale button.selected {
   color: #004499;
   background-color: #afe8ef;
 }
