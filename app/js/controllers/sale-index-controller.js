@@ -44,7 +44,4 @@ angular.module('bobbleApp')
     $scope.gravatarUrl = function(email) {
       return GravatarProvider(email);
     };
-    //$scope.submitForm = function(item) {
-    //  $scope.shoppingListLocal.push(item);
-    //};
   });

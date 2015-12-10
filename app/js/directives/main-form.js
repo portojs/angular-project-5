@@ -15,6 +15,8 @@ angular.module('bobbleApp')
       link: function(scope, element, attrs) {
         scope.item = {};
         scope.submitForm = function() {
+          console.log(scope.list.length);
+          scope.item.id = scope.list.length + 1;
           scope.list.push(scope.item);
           scope.item = {};
         };
