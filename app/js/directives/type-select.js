@@ -7,6 +7,11 @@ angular.module('bobbleApp')
   .directive('typeSelect', function() {
     return {
       restrict: 'E',
-      templateUrl: 'templates/directives/type-select.html'
+      templateUrl: 'templates/directives/type-select.html',
+      scope: {
+      },
+      controller: function($scope, TypesService) {
+        $scope.types = TypesService.query();
+      }
     }
   });
