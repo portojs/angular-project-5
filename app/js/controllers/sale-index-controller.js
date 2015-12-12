@@ -1,6 +1,8 @@
 /**
  * Created by Peter on 08.12.2015.
  */
+'use strict';
+
 angular.module('bobbleApp')
   .controller('saleIndexController', function($scope, ShoppingService, GravatarProvider) {
     $scope.showForm = false;

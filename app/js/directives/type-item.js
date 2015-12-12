@@ -9,7 +9,7 @@ angular.module('bobbleApp')
       restrict: 'E',
       templateUrl: 'templates/directives/type-item.html',
       scope: {
-        type: "type"
+        type: "="
       }
     }
   });
