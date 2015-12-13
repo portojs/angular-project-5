@@ -216,9 +216,42 @@ main-form fieldset {
   border-color: green;
 }
 
+type-select {
+  text-align: center;
+}
+
+type-select ul {
+  background-color: #255470;
+}
+
+#page-sale div section type-select li {
+  /*display: inline-block;*/
+  margin: 0;
+  padding: 0;
+}
+
+type-select ul li a {
+  color: #fff;
+  background-color: #255470;
+  cursor: pointer;
+  width: 100%;
+  display: inline-block;
+  padding: 0 auto;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+type-select ul li a:hover {
+  color: #255470;
+  background-color: lightcyan;
+}
+
 .type-item.selected {
-  color: white;
-  background-color: red;
+  color: #255470;
+  background-color: lightcyan;
 }
 
 

@@ -4,7 +4,6 @@
     <type-select active-type="activeType"></type-select>
   </section>
 
-  <input type="search" ng-model="search.input" />
   <ul>
     <li ng-repeat="item in list | filter: {type: activeType} | filter: {type: search.input}">
       <p>
