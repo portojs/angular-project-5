@@ -216,6 +216,11 @@ main-form fieldset {
   border-color: green;
 }
 
+.type-item.selected {
+  color: white;
+  background-color: red;
+}
+
 
 
 /********************************************************

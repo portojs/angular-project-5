@@ -1,11 +1,12 @@
 <div>
 
   <section>
-    <type-select item="item"></type-select>
+    <type-select active-type="activeType"></type-select>
   </section>
 
+  <input type="search" ng-model="search.input" />
   <ul>
-    <li ng-repeat="item in list">
+    <li ng-repeat="item in list | filter: {type: activeType} | filter: {type: search.input}">
       <p>
         Lot ID: {{item.id}}<br/>
         Item: {{item.title}}<br/>

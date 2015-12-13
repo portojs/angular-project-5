@@ -10,7 +10,8 @@ angular.module('bobbleApp')
       templateUrl: 'templates/directives/main-list.html',
       scope: {
         list: '=',
-        gravatarUrl: '='
+        gravatarUrl: '=',
+        selectedType: '='
       }
     }
   });

@@ -2,35 +2,35 @@
   {
     "id" : 1,
     "title" : "Doll House",
-    "type" : "general",
+    "type" : "General",
     "price": 5.99,
     "seller" : "john.doe@gmail.com"
   },
   {
     "id" : 2,
     "title" : "Plasma TV",
-    "type" : "electronics",
+    "type" : "Electronics",
     "price": 125.99,
     "seller" : "dick_buick@gmail.com"
   },
   {
     "id" : 3,
     "title" : "AK-47 automatic rifle",
-    "type" : "military",
+    "type" : "Military",
     "price": 50.00,
     "seller" : "jimgordon@gmail.com"
   },
   {
     "id" : 4,
     "title" : "Tomahawk missile",
-    "type" : "military",
+    "type" : "Military",
     "price": 5580.99,
     "seller" : "mcmilligan@gmail.com"
   },
   {
     "id" : 5,
     "title" : "Villa in Italy, Sicily",
-    "type" : "real property",
+    "type" : "Real property",
     "price": 5499000.99,
     "seller" : "jordano-bruno@gmail.com"
   }
