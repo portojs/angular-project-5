@@ -5,7 +5,7 @@
 
 angular.module('bobbleApp')
   .controller('mainHeaderController', function($scope, $location) {
-    $scope.selected = $location.path() === '/sale' ?  1 : 2;
+    $scope.selected = $location.path() === '/sale' || '/' ?  1 : 2;
     $scope.checkSelected = function(selected) {
       return $scope.selected === selected;
     };
