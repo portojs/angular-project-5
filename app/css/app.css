@@ -104,6 +104,7 @@ FOOTER
 *********************************************************/
 
 footer {
+  clear: both;
   text-align: center;
   color: #ddd;
   font-size: 0.75em;
@@ -155,12 +156,13 @@ PAGE: SALE
 #page-sale main-list p,
 #page-sale main-list img {
   display: inline-block;
+  font-size: 0.9em;
 }
 
 #page-sale main-list p {
   float: left;
   margin: 0;
-  width: 285px;
+  width: 270px;
 }
 
 main-form form {
@@ -225,7 +227,6 @@ type-select ul {
 }
 
 #page-sale div section type-select li {
-  /*display: inline-block;*/
   margin: 0;
   padding: 0;
 }

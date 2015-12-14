@@ -1,0 +1,66 @@
+@media screen and (min-width: 630px) {
+
+  /********************************************************
+  PAGE: SALE
+  *********************************************************/
+
+  #page-sale div section type-select li {
+    display: inline-block;
+    /*padding: 0 10px;*/
+  }
+
+  #page-sale type-select li a {
+    display: inline-block;
+    width: inherit;
+    padding: 0 10px;
+    margin: 0 -1px;
+  }
+
+  /********************************************************
+  PAGE: CONTACT
+  *********************************************************/
+
+  #primary,
+  #secondary {
+    display: inline-block;
+  }
+
+  #primary {
+    float: left;
+  }
+
+  #secondary {
+    margin: 50px 7%;
+  }
+
+  #secondary p {
+    margin-top: 0;
+  }
+
+}
+
+@media screen and (min-width: 830px) {
+
+  /********************************************************
+  PAGE: SALE
+  *********************************************************/
+
+  .item-list li {
+    display: inline-block;
+    float: left;
+    width: 48%;
+  }
+
+  .item-list li:nth-child(even) {
+    float: right;
+  }
+
+  .item-list li:nth-child(3) {
+    clear: left;
+  }
+
+}
+
+@media screen and (min-width: 1000px) {
+
+}
